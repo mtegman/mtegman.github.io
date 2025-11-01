@@ -1,0 +1,173 @@
+
+
+* {
+	font-family:'Times New Roman', Times, serif;
+	color: #f5eec2;
+	text-align: center;}
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #F06654}
+#content {
+	overflow: auto;
+	height: 100%;}
+.column1, .column2, .column3 {
+	float: left;
+	margin: 10px;}
+nav ul {
+    list-style: none;      
+    padding: 0;             
+    margin: 0 auto;         
+    display: flex;          
+    justify-content: center;
+    gap: 20px;              
+}
+
+nav a {
+    text-decoration: none;  
+    font-weight: bold;
+    color: #f5eec2;       
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+/* Contact Page Spacing & Formatting */
+.contact-list {
+    margin-top: 30px;
+}
+
+.contact-item {
+    margin-bottom: 25px; 
+}
+
+.contact-item dt {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.contact-item dd a {
+    font-size: 1.1em;
+}
+.column1, .column2, .column3 {
+    width: 30%;           
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+}
+
+.columns figure {
+    margin: 0 0 10px 0;
+}
+
+.columns p {
+    margin-top: 8px;
+    text-align: left;
+    color: #f5eec2;
+}
+
+
+@media screen and (max-width: 760px) {
+    .column1, .column2, .column3 {
+        width: 100%;
+        float: none;
+    }
+}
+
+.dish-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.dish-gallery img {
+    border-radius: 6px;
+}
+
+.dish-gallery h3 {
+    margin-bottom: 10px;
+}
+
+.travel-entry {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 40px 0;
+    text-align: left;
+}
+
+.travel-entry article {
+    width: 60%;
+}
+
+.travel-entry aside {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 760px) {
+    .travel-entry {
+        flex-direction: column;
+        text-align: center;
+    }
+    .travel-entry article,
+    .travel-entry aside {
+        width: 100%;
+    }
+}
+.travel-entry aside {
+    font-size: 1.1em; 
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.explore-list {
+    list-style: none;      
+    margin-top: 12px;
+    padding: 0;
+    text-align: center;    
+    display: block !important;  
+}
+
+.explore-list li {
+    margin: 10px 0;       
+    font-size: 1em;      
+    display: block;        
+}
+
+.photo-row {
+    display: flex;
+    gap: 18px;           
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.photo-row img {
+    width: 350px;        
+    border-radius: 6px;  
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contact-card {
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.12);
+
+}
